@@ -172,11 +172,30 @@ export const categories: Category[] = [
   },
   {
     id: "bitcoin",
-    name: "Square Bitcoin",
+    name: "Bitcoin",
     icon: "₿",
     subjectAreas: [
       {
-        name: "Product & Design",
+        name: "Product",
+        experts: [
+          {
+            name: "milessuter",
+            twitterHandle: "@milessuter",
+            avatarUrl:
+              "https://pbs.twimg.com/profile_images/1510394127338385417/i8aYfwGo_400x400.jpg",
+            companies: ["Block", "Square", "Cash App"],
+          },
+          {
+            name: "tmknsm",
+            twitterHandle: "@tmknsm",
+            avatarUrl:
+              "https://pbs.twimg.com/profile_images/1905311018592399360/ktMTyJRN_400x400.jpg",
+            companies: ["Square"],
+          },
+        ],
+      },
+      {
+        name: "Design",
         experts: [
           {
             name: "tmknsm",
