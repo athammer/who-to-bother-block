@@ -80,6 +80,11 @@ function App() {
         <p className="company-tagline">
           Square • Cash App • Tidal • Afterpay • Bitkey • Proto
         </p>
+        <div className="notice" role="alert">
+          <strong>⚠️ Please be respectful!</strong> These experts volunteer
+          their time. Always try official support channels first for account,
+          billing, or urgent issues.
+        </div>
         <a
           href="https://github.com/athammer/who-to-bother-block"
           target="_blank"

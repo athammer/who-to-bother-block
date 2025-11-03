@@ -2,6 +2,20 @@
 
 A directory of Block (Square, Cash App, Tidal, Afterpay, Bitkey, Proto) experts on Twitter. Find the right person to ask questions about payments, developer tools, and more.
 
+## ⚠️ Important Guidelines
+
+**Please be respectful!** The people listed here are volunteering their time to help the community. They are not official support channels.
+
+**Always try official support channels first:**
+
+- For technical issues, use the official documentation, forums, and support
+- For account or billing issues, contact official support
+- Only reach out to individuals for general questions, advice, or community discussions
+
+These experts are here to help, but they're doing so on their own time. Be courteous, patient, and understanding.
+
+---
+
 Built by [🪿 Goose](https://block.github.io/goose/)
 
 ## 🚀 Running the Application
@@ -126,7 +140,15 @@ If you think a new category or subject area would be valuable:
 
 ## 📝 Code of Conduct
 
-- Be respectful and professional
+### For Users:
+
+- **Be respectful and courteous** - Everyone listed is volunteering their time
+- **Try official support first** - Use official docs, forums, and support channels before reaching out
+- These experts are not official support - They cannot help with account issues, billing, or urgent technical problems
+- Be patient and understanding - They may not always be able to respond
+
+### For Contributors:
+
 - **Never add anyone without their explicit permission**
 - Only add people who have agreed to be listed and are willing to answer questions
 - Keep information accurate and up-to-date
