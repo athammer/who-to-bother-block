@@ -22,7 +22,7 @@ export const companyResources: Record<Company, Resource[]> = {
     },
     {
       title: "Support",
-      url: "https://app.squareup.com/help/us/en/contact?panel=BF53A9C8EF68",
+      url: "https://app.squareup.com/help/us/en",
       icon: "🆘",
       description: "Get help from Square support",
     },
@@ -36,7 +36,7 @@ export const companyResources: Record<Company, Resource[]> = {
     },
     {
       title: "Cash App for Business",
-      url: "https://cash.app/business",
+      url: "https://cash.app/help/6520-cash-app-business",
       icon: "💼",
       description: "Business solutions",
     },
