@@ -15,6 +15,7 @@ export const categories: Category[] = [
             avatarUrl:
               "https://pbs.twimg.com/profile_images/1924572637768122374/ChcPO7bQ_400x400.jpg",
             companies: [
+              "Block",
               "Square",
               "Cash App",
               "Tidal",
@@ -145,6 +146,25 @@ export const categories: Category[] = [
             avatarUrl:
               "https://pbs.twimg.com/profile_images/1967761619246608384/a-Gl-mKB_400x400.jpg",
             companies: ["Square", "Cash App"],
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: "open-source",
+    name: "Open Source",
+    icon: "🌟",
+    subjectAreas: [
+      {
+        name: "Goose",
+        experts: [
+          {
+            name: "blackgirlbytes",
+            twitterHandle: "@blackgirlbytes",
+            avatarUrl:
+              "https://pbs.twimg.com/profile_images/1612362419703058435/cuw_DFvR_400x400.jpg",
+            companies: ["Block"],
           },
         ],
       },

@@ -1,4 +1,5 @@
 export type Company =
+  | "Block"
   | "Square"
   | "Cash App"
   | "Tidal"

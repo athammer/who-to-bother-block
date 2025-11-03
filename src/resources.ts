@@ -1,6 +1,20 @@
 import type { Company, Resource } from "./types";
 
 export const companyResources: Record<Company, Resource[]> = {
+  Block: [
+    {
+      title: "Block Newsroom",
+      url: "https://block.xyz/news",
+      icon: "📰",
+      description: "Latest news and updates",
+    },
+    {
+      title: "Block Careers",
+      url: "https://block.xyz/careers",
+      icon: "💼",
+      description: "Join the team",
+    },
+  ],
   Square: [
     {
       title: "Square Developer Docs",
@@ -32,6 +46,12 @@ export const companyResources: Record<Company, Resource[]> = {
       icon: "🆘",
       description: "Get help from Square support",
     },
+    {
+      title: "Square Careers",
+      url: "https://careers.squareup.com/",
+      icon: "💼",
+      description: "Join the team",
+    },
   ],
   "Cash App": [
     {
@@ -52,6 +72,12 @@ export const companyResources: Record<Company, Resource[]> = {
       icon: "🗨️",
       description: "Community support and discussion",
     },
+    {
+      title: "Cash App Careers",
+      url: "https://block.xyz/careers",
+      icon: "💼",
+      description: "Join the team",
+    },
   ],
   Tidal: [
     {
@@ -65,6 +91,12 @@ export const companyResources: Record<Company, Resource[]> = {
       url: "https://artists.tidal.com/",
       icon: "🎵",
       description: "Resources for artists",
+    },
+    {
+      title: "TIDAL Careers",
+      url: "https://block.xyz/careers",
+      icon: "💼",
+      description: "Join the team",
     },
   ],
   Afterpay: [
@@ -80,6 +112,12 @@ export const companyResources: Record<Company, Resource[]> = {
       icon: "💼",
       description: "Merchant resources",
     },
+    {
+      title: "Afterpay Careers",
+      url: "https://block.xyz/careers",
+      icon: "💼",
+      description: "Join the team",
+    },
   ],
   Bitkey: [
     {
@@ -88,6 +126,12 @@ export const companyResources: Record<Company, Resource[]> = {
       icon: "🔑",
       description: "Learn about Bitkey",
     },
+    {
+      title: "Bitkey Careers",
+      url: "https://block.xyz/careers",
+      icon: "💼",
+      description: "Join the team",
+    },
   ],
   Proto: [
     {
@@ -95,6 +139,12 @@ export const companyResources: Record<Company, Resource[]> = {
       url: "https://proto.xyz/",
       icon: "🛠️",
       description: "Learn about Proto",
+    },
+    {
+      title: "Proto Careers",
+      url: "https://block.xyz/careers",
+      icon: "💼",
+      description: "Join the team",
     },
   ],
 };
@@ -125,4 +175,3 @@ export const generalResources: Resource[] = [
     description: "Join the discussion",
   },
 ];
-

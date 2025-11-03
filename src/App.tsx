@@ -40,6 +40,7 @@ function App() {
   );
 
   const companies: Company[] = [
+    "Block",
     "Square",
     "Cash App",
     "Tidal",
@@ -79,7 +80,7 @@ function App() {
         <h1 className="title">🤔 Who to Bother</h1>
         <p className="subtitle">Find the right Block experts on Twitter</p>
         <p className="company-tagline">
-          Square • Cash App • Tidal • Afterpay • Bitkey • Proto
+          Block • Square • Cash App • Tidal • Afterpay • Bitkey • Proto
         </p>
         <div className="notice" role="alert">
           <strong>⚠️ Please be respectful!</strong> These experts volunteer
