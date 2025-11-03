@@ -50,6 +50,8 @@ We welcome contributions! Here are a few ways you can help:
 
 If you're a Block expert (or know one!) who's willing to answer questions on Twitter, you can add yourself to the directory.
 
+**⚠️ Important: Only add people who have explicitly given their permission to be listed. Do not add someone without asking them first.**
+
 #### Step 1: Fork and Clone
 
 1. Fork this repository
@@ -125,7 +127,8 @@ If you think a new category or subject area would be valuable:
 ## 📝 Code of Conduct
 
 - Be respectful and professional
-- Only add people who have agreed to be listed
+- **Never add anyone without their explicit permission**
+- Only add people who have agreed to be listed and are willing to answer questions
 - Keep information accurate and up-to-date
 - Follow the existing code style and structure
 
