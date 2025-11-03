@@ -81,7 +81,7 @@ function App() {
           Square • Cash App • Tidal • Afterpay • Bitkey • Proto
         </p>
         <a
-          href="https://github.com/yourusername/who-to-bother"
+          href="https://github.com/athammer/who-to-bother-block"
           target="_blank"
           rel="noopener noreferrer"
           className="github-link"

@@ -14,17 +14,20 @@ Built by [🪿 Goose](https://block.github.io/goose/)
 ### Installation
 
 1. Clone the repository:
+
 ```bash
-git clone https://github.com/yourusername/who-to-bother.git
-cd who-to-bother
+git clone https://github.com/athammer/who-to-bother-block.git
+cd who-to-bother-block
 ```
 
 2. Install dependencies:
+
 ```bash
 npm install
 ```
 
 3. Start the development server:
+
 ```bash
 npm run dev
 ```
@@ -69,6 +72,7 @@ Edit `src/data.ts` and add your entry to the appropriate category and subject ar
 ```
 
 **To get your Twitter avatar URL:**
+
 1. Go to your Twitter profile
 2. Right-click on your profile picture
 3. Select "Copy Image Address"
@@ -86,12 +90,14 @@ You can add yourself to multiple subject areas if relevant!
 #### Step 4: Submit Your Pull Request
 
 1. Commit your changes:
+
 ```bash
 git add src/data.ts
 git commit -m "Add [Your Name] to [Category/Subject Area]"
 ```
 
 2. Push to your fork:
+
 ```bash
 git push origin add-expert-name
 ```
@@ -132,7 +138,7 @@ If you think a new category or subject area would be valuable:
 
 ## 📧 Contact
 
-Want to update or add new people? DM [@ahammer__](https://twitter.com/ahammer__) on Twitter
+Want to update or add new people? DM [@ahammer\_\_](https://twitter.com/ahammer__) on Twitter
 
 ## 🌟 Features
 
