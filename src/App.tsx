@@ -371,6 +371,11 @@ function App() {
       </main>
 
       <footer className="footer" role="contentinfo">
+        <p className="footer-disclaimer">
+          ⚠️ This is not an official Block, Square, Cash App, Tidal, Afterpay,
+          Bitkey, or Proto website. For official support, please visit the
+          official support channels listed above.
+        </p>
         <p className="footer-text">
           Want to update or add new people?{" "}
           <a

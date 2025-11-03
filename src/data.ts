@@ -12,7 +12,8 @@ export const categories: Category[] = [
           {
             name: "Block",
             twitterHandle: "@blocks",
-            avatarUrl: "https://api.dicebear.com/7.x/shapes/svg?seed=Block",
+            avatarUrl:
+              "https://pbs.twimg.com/profile_images/1924572637768122374/ChcPO7bQ_400x400.jpg",
             companies: [
               "Square",
               "Cash App",
@@ -25,31 +26,36 @@ export const categories: Category[] = [
           {
             name: "Square",
             twitterHandle: "@Square",
-            avatarUrl: "https://api.dicebear.com/7.x/shapes/svg?seed=Square",
+            avatarUrl:
+              "https://pbs.twimg.com/profile_images/1285655593592791040/HtwPZgej_400x400.jpg",
             companies: ["Square"],
           },
           {
             name: "Cash App",
             twitterHandle: "@CashApp",
-            avatarUrl: "https://api.dicebear.com/7.x/shapes/svg?seed=CashApp",
+            avatarUrl:
+              "https://pbs.twimg.com/profile_images/1896979872875950080/rL-_wYK7_400x400.jpg",
             companies: ["Cash App"],
           },
           {
             name: "TIDAL",
             twitterHandle: "@TIDAL",
-            avatarUrl: "https://api.dicebear.com/7.x/shapes/svg?seed=TIDAL",
+            avatarUrl:
+              "https://pbs.twimg.com/profile_images/1653759132397195266/7T0RN_jc_400x400.jpg",
             companies: ["Tidal"],
           },
           {
             name: "Afterpay",
             twitterHandle: "@AfterpayUSA",
-            avatarUrl: "https://api.dicebear.com/7.x/shapes/svg?seed=Afterpay",
+            avatarUrl:
+              "https://pbs.twimg.com/profile_images/1918045498797174784/nLjnv9nZ_400x400.jpg",
             companies: ["Afterpay"],
           },
           {
             name: "Bitkey",
             twitterHandle: "@Bitkey",
-            avatarUrl: "https://api.dicebear.com/7.x/shapes/svg?seed=Bitkey",
+            avatarUrl:
+              "https://pbs.twimg.com/profile_images/1894211759025823744/AjQjEkUH_400x400.jpg",
             companies: ["Bitkey"],
           },
         ],
@@ -60,21 +66,22 @@ export const categories: Category[] = [
           {
             name: "Square Developers",
             twitterHandle: "@SquareDev",
-            avatarUrl: "https://api.dicebear.com/7.x/shapes/svg?seed=SquareDev",
+            avatarUrl:
+              "https://pbs.twimg.com/profile_images/1819413024849252355/bJIBxsNc_400x400.png",
             companies: ["Square"],
           },
           {
             name: "Square Support",
             twitterHandle: "@SquareSupport",
             avatarUrl:
-              "https://api.dicebear.com/7.x/shapes/svg?seed=SquareSupport",
+              "https://pbs.twimg.com/profile_images/1156276039154225152/2hvWemBu_400x400.jpg",
             companies: ["Square"],
           },
           {
             name: "Cash App Support",
             twitterHandle: "@CashSupport",
             avatarUrl:
-              "https://api.dicebear.com/7.x/shapes/svg?seed=CashSupport",
+              "https://pbs.twimg.com/profile_images/1835765367366422528/Kh5n4dTt_400x400.jpg",
             companies: ["Cash App"],
           },
         ],
