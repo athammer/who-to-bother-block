@@ -42,7 +42,7 @@ export const categories: Category[] = [
           },
           {
             name: "Afterpay",
-            twitterHandle: "@Afterpay",
+            twitterHandle: "@AfterpayUSA",
             avatarUrl: "https://api.dicebear.com/7.x/shapes/svg?seed=Afterpay",
             companies: ["Afterpay"],
           },
