@@ -20,6 +20,7 @@ function App() {
   const [selectedCompany, setSelectedCompany] = useState<Company | null>(
     initialParams.company
   );
+  const [filtersExpanded, setFiltersExpanded] = useState(false);
 
   // Update URL when filters change
   useEffect(() => {
@@ -104,86 +105,106 @@ function App() {
         </a>
       </header>
 
-      <div
-        className="filters-section"
-        role="search"
-        aria-label="Filter experts"
-      >
-        <fieldset className="filter-group">
-          <legend className="filter-label">Category:</legend>
-          <div
-            className="categories"
-            role="group"
-            aria-label="Category filters"
-          >
-            <button
-              type="button"
-              className={`category-btn ${
-                selectedCategoryId === null ? "active" : ""
-              }`}
-              onClick={() => setSelectedCategoryId(null)}
-              aria-pressed={selectedCategoryId === null}
-              aria-label="Show all categories"
-            >
-              <span className="category-icon" aria-hidden="true">
-                📋
-              </span>
-              <span className="category-name">All</span>
-            </button>
-            {categories.map((category) => (
-              <button
-                type="button"
-                key={category.id}
-                className={`category-btn ${
-                  selectedCategoryId === category.id ? "active" : ""
-                }`}
-                onClick={() => setSelectedCategoryId(category.id)}
-                aria-pressed={selectedCategoryId === category.id}
-                aria-label={`Filter by ${category.name}`}
-              >
-                <span className="category-icon" aria-hidden="true">
-                  {category.icon}
-                </span>
-                <span className="category-name">{category.name}</span>
-              </button>
-            ))}
-          </div>
-        </fieldset>
+      <div className="filters-section">
+        <button
+          type="button"
+          className="filters-toggle"
+          onClick={() => setFiltersExpanded(!filtersExpanded)}
+          aria-expanded={filtersExpanded}
+          aria-controls="filters-content"
+        >
+          <span className="filters-toggle-icon" aria-hidden="true">
+            {filtersExpanded ? "▼" : "▶"}
+          </span>
+          <span className="filters-toggle-text">
+            {filtersExpanded ? "Hide Filters" : "Show Filters"}
+          </span>
+        </button>
 
-        <fieldset className="filter-group">
-          <legend className="filter-label">Company:</legend>
+        {filtersExpanded && (
           <div
-            className="company-filters"
-            role="group"
-            aria-label="Company filters"
+            id="filters-content"
+            className="filters-content"
+            role="search"
+            aria-label="Filter experts"
           >
-            <button
-              type="button"
-              className={`company-btn ${
-                selectedCompany === null ? "active" : ""
-              }`}
-              onClick={() => setSelectedCompany(null)}
-              aria-pressed={selectedCompany === null}
-              aria-label="Show all companies"
-            >
-              All Companies
-            </button>
-            {companies.map((company) => (
-              <button
-                type="button"
-                key={company}
-                className={`company-btn ${
-                  selectedCompany === company ? "active" : ""
-                }`}
-                onClick={() => setSelectedCompany(company)}
-                aria-pressed={selectedCompany === company}
-                aria-label={`Filter by ${company}`}
+            <fieldset className="filter-group">
+              <legend className="filter-label">Category:</legend>
+              <div
+                className="categories"
+                role="group"
+                aria-label="Category filters"
               >
-                {company}
-              </button>
-            ))}
+                <button
+                  type="button"
+                  className={`category-btn ${
+                    selectedCategoryId === null ? "active" : ""
+                  }`}
+                  onClick={() => setSelectedCategoryId(null)}
+                  aria-pressed={selectedCategoryId === null}
+                  aria-label="Show all categories"
+                >
+                  <span className="category-icon" aria-hidden="true">
+                    📋
+                  </span>
+                  <span className="category-name">All</span>
+                </button>
+                {categories.map((category) => (
+                  <button
+                    type="button"
+                    key={category.id}
+                    className={`category-btn ${
+                      selectedCategoryId === category.id ? "active" : ""
+                    }`}
+                    onClick={() => setSelectedCategoryId(category.id)}
+                    aria-pressed={selectedCategoryId === category.id}
+                    aria-label={`Filter by ${category.name}`}
+                  >
+                    <span className="category-icon" aria-hidden="true">
+                      {category.icon}
+                    </span>
+                    <span className="category-name">{category.name}</span>
+                  </button>
+                ))}
+              </div>
+            </fieldset>
+
+            <fieldset className="filter-group">
+              <legend className="filter-label">Company:</legend>
+              <div
+                className="company-filters"
+                role="group"
+                aria-label="Company filters"
+              >
+                <button
+                  type="button"
+                  className={`company-btn ${
+                    selectedCompany === null ? "active" : ""
+                  }`}
+                  onClick={() => setSelectedCompany(null)}
+                  aria-pressed={selectedCompany === null}
+                  aria-label="Show all companies"
+                >
+                  All Companies
+                </button>
+                {companies.map((company) => (
+                  <button
+                    type="button"
+                    key={company}
+                    className={`company-btn ${
+                      selectedCompany === company ? "active" : ""
+                    }`}
+                    onClick={() => setSelectedCompany(company)}
+                    aria-pressed={selectedCompany === company}
+                    aria-label={`Filter by ${company}`}
+                  >
+                    {company}
+                  </button>
+                ))}
+              </div>
+            </fieldset>
           </div>
-        </fieldset>
+        )}
       </div>
 
       <main id="main-content" className="content">
