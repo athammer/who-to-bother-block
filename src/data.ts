@@ -124,4 +124,23 @@ export const categories: Category[] = [
       },
     ],
   },
+  {
+    id: "sales-onboarding",
+    name: "Sales & Onboarding",
+    icon: "🤝",
+    subjectAreas: [
+      {
+        name: "Sales & Onboarding",
+        experts: [
+          {
+            name: "Jordan Tudhope",
+            twitterHandle: "@JTudhope",
+            avatarUrl:
+              "https://pbs.twimg.com/profile_images/1967761619246608384/a-Gl-mKB_400x400.jpg",
+            companies: ["Square", "Cash App"],
+          },
+        ],
+      },
+    ],
+  },
 ];
