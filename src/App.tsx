@@ -380,6 +380,15 @@ function App() {
         <p className="footer-text">
           Want to update or add new people?{" "}
           <a
+            href="https://github.com/athammer/who-to-bother-block"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="footer-link"
+          >
+            Submit a PR on GitHub
+          </a>
+          {" or "}
+          <a
             href="https://twitter.com/ahammer__"
             target="_blank"
             rel="noopener noreferrer"
