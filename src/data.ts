@@ -170,4 +170,23 @@ export const categories: Category[] = [
       },
     ],
   },
+  {
+    id: "bitcoin",
+    name: "Square Bitcoin",
+    icon: "₿",
+    subjectAreas: [
+      {
+        name: "Product & Design",
+        experts: [
+          {
+            name: "tmknsm",
+            twitterHandle: "@tmknsm",
+            avatarUrl:
+              "https://pbs.twimg.com/profile_images/1905311018592399360/ktMTyJRN_400x400.jpg",
+            companies: ["Square"],
+          },
+        ],
+      },
+    ],
+  },
 ];
