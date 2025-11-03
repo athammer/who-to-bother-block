@@ -21,6 +21,12 @@ export const companyResources: Record<Company, Resource[]> = {
       description: "Chat with developers",
     },
     {
+      title: "Square Official Reddit",
+      url: "https://www.reddit.com/r/SquareOfficial/",
+      icon: "🗨️",
+      description: "Join the community discussion",
+    },
+    {
       title: "Support",
       url: "https://app.squareup.com/help/us/en",
       icon: "🆘",
@@ -39,6 +45,12 @@ export const companyResources: Record<Company, Resource[]> = {
       url: "https://cash.app/help/6520-cash-app-business",
       icon: "💼",
       description: "Business solutions",
+    },
+    {
+      title: "Cash App Reddit",
+      url: "https://www.reddit.com/r/CashApp/",
+      icon: "🗨️",
+      description: "Community support and discussion",
     },
   ],
   Tidal: [

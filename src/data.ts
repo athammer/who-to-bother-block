@@ -87,18 +87,6 @@ export const categories: Category[] = [
     icon: "💳",
     subjectAreas: [
       {
-        name: "Payment APIs",
-        experts: [
-          {
-            name: "Aaron Hammer",
-            twitterHandle: "@ahammer__",
-            avatarUrl:
-              "https://pbs.twimg.com/profile_images/1967324037899591680/5e1MH_bh_400x400.jpg",
-            companies: ["Square"],
-          },
-        ],
-      },
-      {
         name: "Payment Links",
         experts: [
           {
