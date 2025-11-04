@@ -133,6 +133,18 @@ export const categories: Category[] = [
     icon: "🌟",
     subjectAreas: [
       {
+        name: "General",
+        experts: [
+          {
+            name: "ALRubinger",
+            twitterHandle: "@ALRubinger",
+            avatarUrl:
+              "https://pbs.twimg.com/profile_images/1976192127030956032/BKLOFwtc_400x400.jpg",
+            companies: ["Block"],
+          },
+        ],
+      },
+      {
         name: "Goose",
         experts: [
           {
