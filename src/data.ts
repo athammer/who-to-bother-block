@@ -2,6 +2,44 @@ import type { Category } from "./types";
 
 export const categories: Category[] = [
   {
+    id: "bitcoin",
+    name: "Bitcoin",
+    icon: "₿",
+    subjectAreas: [
+      {
+        name: "Product",
+        experts: [
+          {
+            name: "milessuter",
+            twitterHandle: "@milessuter",
+            avatarUrl:
+              "https://pbs.twimg.com/profile_images/1510394127338385417/i8aYfwGo_400x400.jpg",
+            companies: ["Block", "Square", "Cash App"],
+          },
+          {
+            name: "tmknsm",
+            twitterHandle: "@tmknsm",
+            avatarUrl:
+              "https://pbs.twimg.com/profile_images/1905311018592399360/ktMTyJRN_400x400.jpg",
+            companies: ["Square"],
+          },
+        ],
+      },
+      {
+        name: "Design",
+        experts: [
+          {
+            name: "tmknsm",
+            twitterHandle: "@tmknsm",
+            avatarUrl:
+              "https://pbs.twimg.com/profile_images/1905311018592399360/ktMTyJRN_400x400.jpg",
+            companies: ["Square"],
+          },
+        ],
+      },
+    ],
+  },
+  {
     id: "official",
     name: "Official Accounts",
     icon: "✅",
@@ -90,6 +128,25 @@ export const categories: Category[] = [
     ],
   },
   {
+    id: "open-source",
+    name: "Open Source",
+    icon: "🌟",
+    subjectAreas: [
+      {
+        name: "Goose",
+        experts: [
+          {
+            name: "blackgirlbytes",
+            twitterHandle: "@blackgirlbytes",
+            avatarUrl:
+              "https://pbs.twimg.com/profile_images/1612362419703058435/cuw_DFvR_400x400.jpg",
+            companies: ["Block"],
+          },
+        ],
+      },
+    ],
+  },
+  {
     id: "payments",
     name: "Payments & Commerce",
     icon: "💳",
@@ -146,63 +203,6 @@ export const categories: Category[] = [
             avatarUrl:
               "https://pbs.twimg.com/profile_images/1967761619246608384/a-Gl-mKB_400x400.jpg",
             companies: ["Square", "Cash App"],
-          },
-        ],
-      },
-    ],
-  },
-  {
-    id: "open-source",
-    name: "Open Source",
-    icon: "🌟",
-    subjectAreas: [
-      {
-        name: "Goose",
-        experts: [
-          {
-            name: "blackgirlbytes",
-            twitterHandle: "@blackgirlbytes",
-            avatarUrl:
-              "https://pbs.twimg.com/profile_images/1612362419703058435/cuw_DFvR_400x400.jpg",
-            companies: ["Block"],
-          },
-        ],
-      },
-    ],
-  },
-  {
-    id: "bitcoin",
-    name: "Bitcoin",
-    icon: "₿",
-    subjectAreas: [
-      {
-        name: "Product",
-        experts: [
-          {
-            name: "milessuter",
-            twitterHandle: "@milessuter",
-            avatarUrl:
-              "https://pbs.twimg.com/profile_images/1510394127338385417/i8aYfwGo_400x400.jpg",
-            companies: ["Block", "Square", "Cash App"],
-          },
-          {
-            name: "tmknsm",
-            twitterHandle: "@tmknsm",
-            avatarUrl:
-              "https://pbs.twimg.com/profile_images/1905311018592399360/ktMTyJRN_400x400.jpg",
-            companies: ["Square"],
-          },
-        ],
-      },
-      {
-        name: "Design",
-        experts: [
-          {
-            name: "tmknsm",
-            twitterHandle: "@tmknsm",
-            avatarUrl:
-              "https://pbs.twimg.com/profile_images/1905311018592399360/ktMTyJRN_400x400.jpg",
-            companies: ["Square"],
           },
         ],
       },
